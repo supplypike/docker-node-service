@@ -1,9 +1,0 @@
-FROM node:8
-ENV NPM_CONFIG_LOGLEVEL warn
-
-
-EXPOSE 40404
-
-USER node
-WORKDIR /opt/cs-service/
-CMD ["npm", "start"]
