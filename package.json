@@ -1,0 +1,22 @@
+{
+  "name": "docker-node-service",
+  "version": "0.1.0",
+  "description": "[![](http://dockeri.co/image/casestack/node-service)](https://hub.docker.com/r/casestack/node-service/)",
+  "main": "generateDockerfiles.js",
+  "scripts": {
+    "build": "node generateDockerfiles.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/casestack/docker-node-service.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/casestack/docker-node-service/issues"
+  },
+  "homepage": "https://github.com/casestack/docker-node-service#readme",
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  }
+}
