@@ -1,8 +1,8 @@
-function run() {
-  const fs = require('fs');
-  const mustache = require('mustache');
-  const config = require('./config.json');
+const fs = require('fs');
+const mustache = require('mustache');
+const config = require('./config.json');
 
+function run() {
   const template = fs.readFileSync('Dockerfile.template', 'utf8');
   mustache.parse(template);
 
