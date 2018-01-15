@@ -1,0 +1,11 @@
+{
+  "name": "docker-node-service",
+  "version": "0.1.0",
+  "description": "[![](http://dockeri.co/image/casestack/node-service)](https://hub.docker.com/r/casestack/node-service/)",
+  "scripts": {
+    "build": "node generateDockerfiles.js"
+  },
+  "devDependencies": {
+    "mustache": "2.3.0"
+  }
+}

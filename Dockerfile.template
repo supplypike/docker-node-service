@@ -1,0 +1,14 @@
+FROM {{ from }}
+ENV NPM_CONFIG_LOGLEVEL warn
+
+WORKDIR /opt/cs-service/
+{{#anyInstructions}}
+
+{{#extraInstructions}}
+{{{.}}}
+{{/extraInstructions}}
+{{/anyInstructions}}
+
+EXPOSE 40404
+
+CMD ["npm", "start"]

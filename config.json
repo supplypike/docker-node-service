@@ -1,0 +1,6 @@
+{
+  "dockerfiles": [
+    { "tag": "6", "from": "node:6" },
+    { "tag": "8", "from": "node:8" }
+  ]
+}
