@@ -3,6 +3,7 @@
     { "tag": "6", "from": "node:6" },
     { "tag": "6-npm6.1", "from": "node:6", "extraInstructions": ["RUN npm install npm@6.1.x", "RUN rm -rf /usr/local/lib/node_modules/npm", "RUN mv node_modules/npm /usr/local/lib/node_modules/npm"] },
     { "tag": "8", "from": "node:8" },
-    { "tag": "10", "from": "node:10" }
+    { "tag": "10", "from": "node:10" },
+    { "tag": "12", "from": "node:12" }
   ]
 }
